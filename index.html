@@ -19,12 +19,14 @@
     <!-- navbar -->
     <nav id="navbar">
         <div class="navbar__logo">
-            <i class="fab favicon.png"></i>  
-            <a href="#">송태건</a>
+            <i class="fab favicon.png.png"></i>  
+            <a href="#">
+                <img class="navbar__logo" src="imgs/favicon.png.png" alt="1">
+            </a>
         </div>
        
-            <ul class="nacbar__menu">
-                <li class="navbar__menu__item">home</li>
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active">home</li>
                 <li class="navbar__menu__item">about</li>
                 <li class="navbar__menu__item">skills</li>
                 <li class="navbar__menu__item">my work</li>
@@ -42,15 +44,15 @@
     </section>
     
     <!-- about -->
-    <section id="about">
-        <h1>About me</h1>
+    <section id="about" class="section section__container">
+        <h1>지원 분야</h1>
         <p></p>
         <div class="about__majors">
             <div class="major">
             <div class="major__icon">
                 <i class="fab fa-html5"></i>
             </div>
-            <div class="major__title">Front-end</div>
+            <h2 class="major__title">Front-end</h2>
             <div class="major__description">Html, Css, JavaScript
 
             </div>
@@ -59,7 +61,7 @@
             <div class="major__icon">
                 <i class="fas fa-server"></i>
             </div>
-            <div class="major__title">Back-end</div>
+            <h2 class="major__title">Back-end</h2>
             <div class="major__description">Java, Spring, NodeJs
                 
             </div>
@@ -67,22 +69,24 @@
         </div>
     </section>
     <!-- skills -->
-    <section id="skills">
-        <h1>Skills</h1>
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>Skills</h1>
         <h2></h2>
         <p></p>
         <div class="skillset">
             <div class="skillset__left">
-               <div class="skillset__title"></div> 
-            </div>
-            <h3 class="skillset__title">Skills</h3>
+                <h3 class="skillset__title">Skills</h3>
+               
+            
+            
             <div class="skill">
                 <div class="skill__description">
                     <span>Html</span>
-                    <span>50%</span>
+                    <span>70%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 70%;"></div>
                 </div>
             </div>
 
@@ -92,7 +96,7 @@
                     <span>50%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 50%;"></div>
                 </div>
                 
             </div>
@@ -100,10 +104,10 @@
             <div class="skill">
                 <div class="skill__description">
                     <span>JavaScript</span>
-                    <span>50%</span>
+                    <span>60%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 60%;"></div>
                 </div>
                 
             </div>
@@ -111,10 +115,10 @@
             <div class="skill">
                 <div class="skill__description">
                     <span>Java</span>
-                    <span>50%</span>
+                    <span>70%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 70%;"></div>
                 </div>
             </div>
 
@@ -124,7 +128,7 @@
                     <span>50%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 50%;"></div>
                 </div>
             </div>
 
@@ -134,10 +138,11 @@
                     <span>50%</span>
                 </div>
                 <div class="skill__bar">
-                    <div class="skill__value"></div>
+                    <div class="skill__value" style="width: 50%;"></div>
                 </div>
             </div>
-           
+        </div>
+
             <div class="skillset__right">
                 <div class="tools">
                     <h3 class="skillset__title">Tools</h3>
@@ -159,15 +164,17 @@
                 </div>
             </div>
         </div>
+        </div>
+        
     </section>
    
     <!-- work -->
-    <section id="work">
+    <section id="work" class="section">
         <h1>my work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
             <button class="category__btn">Front-end<span class="category__count">1</span></button>
-            <button class="category__btn">Back-end<span class="category__count">1</span></button>
+            <button class="category__btn">Back-end<span class="category__count">3</span></button>
         </div>
 
         <div class="work__projects">
@@ -182,16 +189,16 @@
             <a href="" class="project" target="blank">
                 <img class="project__img" src="imgs/projects/project4.png" alt="1">
                 <div class="project__description">
-                    <h3>1</h3>
-                    <span>clone coding with Html and Css</span>
+                    <h3>2</h3>
+                    <span>clone coding with java</span>
                 </div>
             </a>
 
             <a href="" class="project" target="blank">
                 <img class="project__img" src="imgs/projects/project7.png" alt="1">
                 <div class="project__description">
-                    <h3>1</h3>
-                    <span>clone coding with Html and Css</span>
+                    <h3>3</h3>
+                    <span>clone coding with spring</span>
                 </div>
             </a>
 
@@ -199,7 +206,7 @@
                 <img class="project__img" src="imgs/projects/project8.png" alt="1">
                 <div class="project__description">
                     <h3>1</h3>
-                    <span>clone coding with Html and Css</span>
+                    <span>clone coding with nodejs</span>
                 </div>
             </a>
 
@@ -207,7 +214,7 @@
     </section>
     
     <!-- contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <h1 class="contact__title">연락처입니다</h1>
         <h2 class="contact__email">songtaegun92@naver.com</h2>
         <div class="contact__links">
